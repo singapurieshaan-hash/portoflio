@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eshaan Singapuri | Personal Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+    // Smooth scroll
+    document.addEventListener("DOMContentLoaded", function() {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: "smooth" });
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="container">
+      <div class="logo">Eshaan.</div>
+    </div>
+  </header>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Hello, I’m <span class="highlight">Eshaan Singapuri</span></h1>
+      <p class="subtitle">Finance Enthusiast | Trader | Aspiring Entrepreneur</p>
+      <a href="#contact" class="btn">Connect With Me</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul class="container">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>I am a second year student at San José State University with a deep passion for financial markets and also an aspiring entrepreneur with a passion for building something useful that can change people's life. I spend my free time studying market behavior, analyzing trades, and learning how global events shape investment decisions. Whether it's equities, options, or macro trends, I am constantly learning and seeking out people who are a step ahead of the game.</p>
+        
+        <h3>What I am trying to Build?</h3>
+        
+        <ul>
+          <li>A strong foundation in finance, trading, and long-term investing.</li>
+          <li>Hands-on knowledge of brokerage platforms like Charles Schwab, and ongoing self-study in technical analysis, options strategies, and portfolio theory.</li>
+          <li>Skills in tools like Excel, Python, and financial modeling to better understand and interpret data.</li>
+          <li>A mindset grounded in discipline, research, and risk management.</li>
+        </ul>
+        
+        <p>I am also actively looking for internship opportunities, mentorship, or collaborative projects where I can grow fast, and learn from the best.</p>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="card" style="text-align: center;">
+        <h3>Resume</h3>
+        <p>Check out my professional experience, skills, and educational background in detail.</p>
+        <a 
+          href="file:///C:/Users/018182008/Downloads/Resume%20-%20Eshaan%20Singapuri%20(1).pdf" 
+          class="resume-btn" 
+          target="_blank" 
+          download
+          title="Download Resume"
+        >
+          <i class="fa-regular fa-file-pdf"></i> Download Resume
+        </a>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Stock Tracker (in progress)</h3>
+          <p>Personal project using Python and Yahoo Finance API to track and visualize portfolio returns.</p>
+        </div>
+        <div class="card">
+          <h3>Options Simulator</h3>
+          <p>Building a tool to test options trading strategies using historical data and Greeks analysis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="contact-intro">
+        If you work in trading, asset management, hedge funds, or fintech, or if you are just deeply engaged in the world of markets and investing like me, I would love to hear your story.
+      </p>
+      <ul class="socials">
+        <li><a href="https://www.linkedin.com/in/eshaan-singapuri-746b06338/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/eshaan" target="_blank">GitHub</a></li>
+        <li><a href="mailto:singapuri.eshaan@gmail.com">Email Me</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Eshaan Singapuri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
