@@ -587,6 +587,21 @@ footer {
   .navbar a {
     font-size: 1.03rem;         /* easy to read, not huge */
     padding: 0.6rem 0.6rem;     /* good touch*
+@media (max-width: 600px) {
+  /* ...other styles... */
+
+  .about-content {
+    text-align: center !important;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .about-content ul {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.7rem;
+  }
+}
 
 
   }
