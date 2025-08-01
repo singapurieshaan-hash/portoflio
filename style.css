@@ -248,7 +248,7 @@ body {
   position: sticky;
   top: 1rem;
   z-index: 1000;
-    margin-top: 64px; /* or adjust to your header's actual height */
+    margin-top: 72px; /* or adjust to your header's actual height */
 }
 
 .navbar ul {
